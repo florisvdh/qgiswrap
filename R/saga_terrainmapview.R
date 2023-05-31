@@ -28,7 +28,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_terrainmapview <- function(DEM = qgisprocess::qgis_default_value(), SHADE = qgisprocess::qgis_default_value(), OPENNESS = qgisprocess::qgis_default_value(), SLOPE = qgisprocess::qgis_default_value(), CONTOURS = qgisprocess::qgis_default_value(), METHOD = qgisprocess::qgis_default_value(), RADIUS = qgisprocess::qgis_default_value(), CONTOUR_LINES = qgisprocess::qgis_default_value(), EQUIDISTANCE = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_terrainmapview <- function(DEM = qgisprocess:::qgis_default_value(), SHADE = qgisprocess:::qgis_default_value(), OPENNESS = qgisprocess:::qgis_default_value(), SLOPE = qgisprocess:::qgis_default_value(), CONTOURS = qgisprocess:::qgis_default_value(), METHOD = qgisprocess:::qgis_default_value(), RADIUS = qgisprocess:::qgis_default_value(), CONTOUR_LINES = qgisprocess:::qgis_default_value(), EQUIDISTANCE = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:terrainmapview")
 

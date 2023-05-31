@@ -30,7 +30,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_skyviewfactor <- function(DEM = qgisprocess::qgis_default_value(), RADIUS = qgisprocess::qgis_default_value(), METHOD = qgisprocess::qgis_default_value(), DLEVEL = qgisprocess::qgis_default_value(), NDIRS = qgisprocess::qgis_default_value(), VISIBLE = qgisprocess::qgis_default_value(), SVF = qgisprocess::qgis_default_value(), SIMPLE = qgisprocess::qgis_default_value(), TERRAIN = qgisprocess::qgis_default_value(), DISTANCE = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_skyviewfactor <- function(DEM = qgisprocess:::qgis_default_value(), RADIUS = qgisprocess:::qgis_default_value(), METHOD = qgisprocess:::qgis_default_value(), DLEVEL = qgisprocess:::qgis_default_value(), NDIRS = qgisprocess:::qgis_default_value(), VISIBLE = qgisprocess:::qgis_default_value(), SVF = qgisprocess:::qgis_default_value(), SIMPLE = qgisprocess:::qgis_default_value(), TERRAIN = qgisprocess:::qgis_default_value(), DISTANCE = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:skyviewfactor")
 

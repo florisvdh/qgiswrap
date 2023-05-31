@@ -25,7 +25,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_knearestneighboursclassificationopencv <- function(FEATURES = qgisprocess::qgis_default_value(), NORMALIZE = qgisprocess::qgis_default_value(), TRAIN_AREAS = qgisprocess::qgis_default_value(), TRAIN_CLASS = qgisprocess::qgis_default_value(), CLASSES = qgisprocess::qgis_default_value(), NEIGHBOURS = qgisprocess::qgis_default_value(), TRAINING = qgisprocess::qgis_default_value(), ALGORITHM = qgisprocess::qgis_default_value(), EMAX = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_knearestneighboursclassificationopencv <- function(FEATURES = qgisprocess:::qgis_default_value(), NORMALIZE = qgisprocess:::qgis_default_value(), TRAIN_AREAS = qgisprocess:::qgis_default_value(), TRAIN_CLASS = qgisprocess:::qgis_default_value(), CLASSES = qgisprocess:::qgis_default_value(), NEIGHBOURS = qgisprocess:::qgis_default_value(), TRAINING = qgisprocess:::qgis_default_value(), ALGORITHM = qgisprocess:::qgis_default_value(), EMAX = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:knearestneighboursclassificationopencv")
 

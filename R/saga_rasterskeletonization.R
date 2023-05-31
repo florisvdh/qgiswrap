@@ -24,7 +24,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_rasterskeletonization <- function(INPUT = qgisprocess::qgis_default_value(), METHOD = qgisprocess::qgis_default_value(), INIT_METHOD = qgisprocess::qgis_default_value(), INIT_THRESHOLD = qgisprocess::qgis_default_value(), CONVERGENCE = qgisprocess::qgis_default_value(), RESULT = qgisprocess::qgis_default_value(), VECTOR = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_rasterskeletonization <- function(INPUT = qgisprocess:::qgis_default_value(), METHOD = qgisprocess:::qgis_default_value(), INIT_METHOD = qgisprocess:::qgis_default_value(), INIT_THRESHOLD = qgisprocess:::qgis_default_value(), CONVERGENCE = qgisprocess:::qgis_default_value(), RESULT = qgisprocess:::qgis_default_value(), VECTOR = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:rasterskeletonization")
 

@@ -21,7 +21,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-qgis_sumlinelengths <- function(POLYGONS = qgisprocess::qgis_default_value(), LINES = qgisprocess::qgis_default_value(), LEN_FIELD = qgisprocess::qgis_default_value(), COUNT_FIELD = qgisprocess::qgis_default_value(), OUTPUT = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+qgis_sumlinelengths <- function(POLYGONS = qgisprocess:::qgis_default_value(), LINES = qgisprocess:::qgis_default_value(), LEN_FIELD = qgisprocess:::qgis_default_value(), COUNT_FIELD = qgisprocess:::qgis_default_value(), OUTPUT = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("native:sumlinelengths")
 

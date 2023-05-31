@@ -19,7 +19,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-gdal_extractprojection <- function(INPUT = qgisprocess::qgis_default_value(), PRJ_FILE_CREATE = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+gdal_extractprojection <- function(INPUT = qgisprocess:::qgis_default_value(), PRJ_FILE_CREATE = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("gdal:extractprojection")
 

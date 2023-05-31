@@ -24,7 +24,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_gradientvectorsfromdirectionandlength <- function(DIR = qgisprocess::qgis_default_value(), LEN = qgisprocess::qgis_default_value(), STEP = qgisprocess::qgis_default_value(), SIZE_MIN = qgisprocess::qgis_default_value(), SIZE_MAX = qgisprocess::qgis_default_value(), AGGR = qgisprocess::qgis_default_value(), STYLE = qgisprocess::qgis_default_value(), VECTORS = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_gradientvectorsfromdirectionandlength <- function(DIR = qgisprocess:::qgis_default_value(), LEN = qgisprocess:::qgis_default_value(), STEP = qgisprocess:::qgis_default_value(), SIZE_MIN = qgisprocess:::qgis_default_value(), SIZE_MAX = qgisprocess:::qgis_default_value(), AGGR = qgisprocess:::qgis_default_value(), STYLE = qgisprocess:::qgis_default_value(), VECTORS = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:gradientvectorsfromdirectionandlength")
 

@@ -30,7 +30,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_valleyandridgedetectiontophatapproach <- function(DEM = qgisprocess::qgis_default_value(), VALLEY = qgisprocess::qgis_default_value(), HILL = qgisprocess::qgis_default_value(), VALLEY_IDX = qgisprocess::qgis_default_value(), HILL_IDX = qgisprocess::qgis_default_value(), SLOPE_IDX = qgisprocess::qgis_default_value(), RADIUS_VALLEY = qgisprocess::qgis_default_value(), RADIUS_HILL = qgisprocess::qgis_default_value(), THRESHOLD = qgisprocess::qgis_default_value(), METHOD = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_valleyandridgedetectiontophatapproach <- function(DEM = qgisprocess:::qgis_default_value(), VALLEY = qgisprocess:::qgis_default_value(), HILL = qgisprocess:::qgis_default_value(), VALLEY_IDX = qgisprocess:::qgis_default_value(), HILL_IDX = qgisprocess:::qgis_default_value(), SLOPE_IDX = qgisprocess:::qgis_default_value(), RADIUS_VALLEY = qgisprocess:::qgis_default_value(), RADIUS_HILL = qgisprocess:::qgis_default_value(), THRESHOLD = qgisprocess:::qgis_default_value(), METHOD = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:valleyandridgedetectiontophatapproach")
 

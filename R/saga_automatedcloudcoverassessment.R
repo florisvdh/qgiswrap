@@ -28,7 +28,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_automatedcloudcoverassessment <- function(BAND2 = qgisprocess::qgis_default_value(), BAND3 = qgisprocess::qgis_default_value(), BAND4 = qgisprocess::qgis_default_value(), BAND5 = qgisprocess::qgis_default_value(), BAND6 = qgisprocess::qgis_default_value(), CLOUD = qgisprocess::qgis_default_value(), FILTER = qgisprocess::qgis_default_value(), B56C = qgisprocess::qgis_default_value(), B45R = qgisprocess::qgis_default_value(), CSIG = qgisprocess::qgis_default_value(), PASS2 = qgisprocess::qgis_default_value(), SHADOW = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_automatedcloudcoverassessment <- function(BAND2 = qgisprocess:::qgis_default_value(), BAND3 = qgisprocess:::qgis_default_value(), BAND4 = qgisprocess:::qgis_default_value(), BAND5 = qgisprocess:::qgis_default_value(), BAND6 = qgisprocess:::qgis_default_value(), CLOUD = qgisprocess:::qgis_default_value(), FILTER = qgisprocess:::qgis_default_value(), B56C = qgisprocess:::qgis_default_value(), B45R = qgisprocess:::qgis_default_value(), CSIG = qgisprocess:::qgis_default_value(), PASS2 = qgisprocess:::qgis_default_value(), SHADOW = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:automatedcloudcoverassessment")
 

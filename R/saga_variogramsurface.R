@@ -25,7 +25,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_variogramsurface <- function(POINTS = qgisprocess::qgis_default_value(), FIELD = qgisprocess::qgis_default_value(), DISTCOUNT = qgisprocess::qgis_default_value(), NSKIP = qgisprocess::qgis_default_value(), COUNT = qgisprocess::qgis_default_value(), VARIANCE = qgisprocess::qgis_default_value(), COVARIANCE = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_variogramsurface <- function(POINTS = qgisprocess:::qgis_default_value(), FIELD = qgisprocess:::qgis_default_value(), DISTCOUNT = qgisprocess:::qgis_default_value(), NSKIP = qgisprocess:::qgis_default_value(), COUNT = qgisprocess:::qgis_default_value(), VARIANCE = qgisprocess:::qgis_default_value(), COVARIANCE = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:variogramsurface")
 

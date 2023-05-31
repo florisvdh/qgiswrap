@@ -20,7 +20,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_localminimaandmaxima <- function(GRID = qgisprocess::qgis_default_value(), MINIMA = qgisprocess::qgis_default_value(), MAXIMA = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_localminimaandmaxima <- function(GRID = qgisprocess:::qgis_default_value(), MINIMA = qgisprocess:::qgis_default_value(), MAXIMA = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:localminimaandmaxima")
 

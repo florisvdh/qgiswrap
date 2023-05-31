@@ -28,7 +28,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-qgis_joinbynearest <- function(INPUT = qgisprocess::qgis_default_value(), INPUT_2 = qgisprocess::qgis_default_value(), FIELDS_TO_COPY = qgisprocess::qgis_default_value(), DISCARD_NONMATCHING = qgisprocess::qgis_default_value(), PREFIX = qgisprocess::qgis_default_value(), NEIGHBORS = qgisprocess::qgis_default_value(), MAX_DISTANCE = qgisprocess::qgis_default_value(), OUTPUT = qgisprocess::qgis_default_value(), NON_MATCHING = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+qgis_joinbynearest <- function(INPUT = qgisprocess:::qgis_default_value(), INPUT_2 = qgisprocess:::qgis_default_value(), FIELDS_TO_COPY = qgisprocess:::qgis_default_value(), DISCARD_NONMATCHING = qgisprocess:::qgis_default_value(), PREFIX = qgisprocess:::qgis_default_value(), NEIGHBORS = qgisprocess:::qgis_default_value(), MAX_DISTANCE = qgisprocess:::qgis_default_value(), OUTPUT = qgisprocess:::qgis_default_value(), NON_MATCHING = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("native:joinbynearest")
 

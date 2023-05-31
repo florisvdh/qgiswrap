@@ -19,7 +19,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_fuzzyunionor <- function(GRIDS = qgisprocess::qgis_default_value(), TYPE = qgisprocess::qgis_default_value(), OR = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_fuzzyunionor <- function(GRIDS = qgisprocess:::qgis_default_value(), TYPE = qgisprocess:::qgis_default_value(), OR = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:fuzzyunionor")
 

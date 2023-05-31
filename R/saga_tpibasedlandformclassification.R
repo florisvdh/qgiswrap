@@ -25,7 +25,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_tpibasedlandformclassification <- function(DEM = qgisprocess::qgis_default_value(), RADIUS_A_MIN = qgisprocess::qgis_default_value(), RADIUS_A_MAX = qgisprocess::qgis_default_value(), RADIUS_B_MIN = qgisprocess::qgis_default_value(), RADIUS_B_MAX = qgisprocess::qgis_default_value(), DW_WEIGHTING = qgisprocess::qgis_default_value(), DW_IDW_POWER = qgisprocess::qgis_default_value(), DW_BANDWIDTH = qgisprocess::qgis_default_value(), LANDFORMS = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_tpibasedlandformclassification <- function(DEM = qgisprocess:::qgis_default_value(), RADIUS_A_MIN = qgisprocess:::qgis_default_value(), RADIUS_A_MAX = qgisprocess:::qgis_default_value(), RADIUS_B_MIN = qgisprocess:::qgis_default_value(), RADIUS_B_MAX = qgisprocess:::qgis_default_value(), DW_WEIGHTING = qgisprocess:::qgis_default_value(), DW_IDW_POWER = qgisprocess:::qgis_default_value(), DW_BANDWIDTH = qgisprocess:::qgis_default_value(), LANDFORMS = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:tpibasedlandformclassification")
 

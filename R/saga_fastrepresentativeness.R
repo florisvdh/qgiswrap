@@ -23,7 +23,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_fastrepresentativeness <- function(INPUT = qgisprocess::qgis_default_value(), LOD = qgisprocess::qgis_default_value(), RESULT = qgisprocess::qgis_default_value(), RESULT_LOD = qgisprocess::qgis_default_value(), SEEDS = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_fastrepresentativeness <- function(INPUT = qgisprocess:::qgis_default_value(), LOD = qgisprocess:::qgis_default_value(), RESULT = qgisprocess:::qgis_default_value(), RESULT_LOD = qgisprocess:::qgis_default_value(), SEEDS = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:fastrepresentativeness")
 

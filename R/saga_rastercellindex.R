@@ -19,7 +19,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_rastercellindex <- function(GRID = qgisprocess::qgis_default_value(), ORDER = qgisprocess::qgis_default_value(), INDEX = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_rastercellindex <- function(GRID = qgisprocess:::qgis_default_value(), ORDER = qgisprocess:::qgis_default_value(), INDEX = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:rastercellindex")
 

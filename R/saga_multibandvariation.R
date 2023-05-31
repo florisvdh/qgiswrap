@@ -26,7 +26,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_multibandvariation <- function(BANDS = qgisprocess::qgis_default_value(), RADIUS = qgisprocess::qgis_default_value(), DISTANCE_WEIGHTING_WEIGHTING = qgisprocess::qgis_default_value(), DISTANCE_WEIGHTING_IDW_POWER = qgisprocess::qgis_default_value(), DISTANCE_WEIGHTING_BANDWIDTH = qgisprocess::qgis_default_value(), MEAN = qgisprocess::qgis_default_value(), STDDEV = qgisprocess::qgis_default_value(), DIFF = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_multibandvariation <- function(BANDS = qgisprocess:::qgis_default_value(), RADIUS = qgisprocess:::qgis_default_value(), DISTANCE_WEIGHTING_WEIGHTING = qgisprocess:::qgis_default_value(), DISTANCE_WEIGHTING_IDW_POWER = qgisprocess:::qgis_default_value(), DISTANCE_WEIGHTING_BANDWIDTH = qgisprocess:::qgis_default_value(), MEAN = qgisprocess:::qgis_default_value(), STDDEV = qgisprocess:::qgis_default_value(), DIFF = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:multibandvariation")
 

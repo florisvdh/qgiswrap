@@ -23,7 +23,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_spatialpointpatternanalysis <- function(POINTS = qgisprocess::qgis_default_value(), STEP = qgisprocess::qgis_default_value(), CENTRE = qgisprocess::qgis_default_value(), STDDIST = qgisprocess::qgis_default_value(), BBOX = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_spatialpointpatternanalysis <- function(POINTS = qgisprocess:::qgis_default_value(), STEP = qgisprocess:::qgis_default_value(), CENTRE = qgisprocess:::qgis_default_value(), STDDIST = qgisprocess:::qgis_default_value(), BBOX = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:spatialpointpatternanalysis")
 

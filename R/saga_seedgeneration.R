@@ -30,7 +30,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_seedgeneration <- function(FEATURES = qgisprocess::qgis_default_value(), SEED_TYPE = qgisprocess::qgis_default_value(), METHOD = qgisprocess::qgis_default_value(), BAND_WIDTH = qgisprocess::qgis_default_value(), NORMALIZE = qgisprocess::qgis_default_value(), DW_WEIGHTING = qgisprocess::qgis_default_value(), DW_IDW_POWER = qgisprocess::qgis_default_value(), DW_IDW_OFFSET = qgisprocess::qgis_default_value(), DW_BANDWIDTH = qgisprocess::qgis_default_value(), SEED_GRID = qgisprocess::qgis_default_value(), VARIANCE = qgisprocess::qgis_default_value(), SEED_POINTS = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_seedgeneration <- function(FEATURES = qgisprocess:::qgis_default_value(), SEED_TYPE = qgisprocess:::qgis_default_value(), METHOD = qgisprocess:::qgis_default_value(), BAND_WIDTH = qgisprocess:::qgis_default_value(), NORMALIZE = qgisprocess:::qgis_default_value(), DW_WEIGHTING = qgisprocess:::qgis_default_value(), DW_IDW_POWER = qgisprocess:::qgis_default_value(), DW_IDW_OFFSET = qgisprocess:::qgis_default_value(), DW_BANDWIDTH = qgisprocess:::qgis_default_value(), SEED_GRID = qgisprocess:::qgis_default_value(), VARIANCE = qgisprocess:::qgis_default_value(), SEED_POINTS = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:seedgeneration")
 

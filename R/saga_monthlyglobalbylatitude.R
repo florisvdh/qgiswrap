@@ -21,7 +21,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_monthlyglobalbylatitude <- function(ALBEDO = qgisprocess::qgis_default_value(), FIELD = qgisprocess::qgis_default_value(), YEAR = qgisprocess::qgis_default_value(), DLAT = qgisprocess::qgis_default_value(), SOLARRAD = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_monthlyglobalbylatitude <- function(ALBEDO = qgisprocess:::qgis_default_value(), FIELD = qgisprocess:::qgis_default_value(), YEAR = qgisprocess:::qgis_default_value(), DLAT = qgisprocess:::qgis_default_value(), SOLARRAD = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:monthlyglobalbylatitude")
 

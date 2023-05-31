@@ -22,7 +22,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_sharedpolygonedges <- function(POLYGONS = qgisprocess::qgis_default_value(), ATTRIBUTE = qgisprocess::qgis_default_value(), EPSILON = qgisprocess::qgis_default_value(), VERTICES = qgisprocess::qgis_default_value(), DOUBLE = qgisprocess::qgis_default_value(), EDGES = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_sharedpolygonedges <- function(POLYGONS = qgisprocess:::qgis_default_value(), ATTRIBUTE = qgisprocess:::qgis_default_value(), EPSILON = qgisprocess:::qgis_default_value(), VERTICES = qgisprocess:::qgis_default_value(), DOUBLE = qgisprocess:::qgis_default_value(), EDGES = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:sharedpolygonedges")
 

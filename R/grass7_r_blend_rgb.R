@@ -28,7 +28,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-grass7_r_blend_rgb <- function(first = qgisprocess::qgis_default_value(), second = qgisprocess::qgis_default_value(), percent = qgisprocess::qgis_default_value(), output_red = qgisprocess::qgis_default_value(), output_green = qgisprocess::qgis_default_value(), output_blue = qgisprocess::qgis_default_value(), GRASS_REGION_PARAMETER = qgisprocess::qgis_default_value(), GRASS_REGION_CELLSIZE_PARAMETER = qgisprocess::qgis_default_value(), GRASS_RASTER_FORMAT_OPT = qgisprocess::qgis_default_value(), GRASS_RASTER_FORMAT_META = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+grass7_r_blend_rgb <- function(first = qgisprocess:::qgis_default_value(), second = qgisprocess:::qgis_default_value(), percent = qgisprocess:::qgis_default_value(), output_red = qgisprocess:::qgis_default_value(), output_green = qgisprocess:::qgis_default_value(), output_blue = qgisprocess:::qgis_default_value(), GRASS_REGION_PARAMETER = qgisprocess:::qgis_default_value(), GRASS_REGION_CELLSIZE_PARAMETER = qgisprocess:::qgis_default_value(), GRASS_RASTER_FORMAT_OPT = qgisprocess:::qgis_default_value(), GRASS_RASTER_FORMAT_META = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("grass7:r.blend.rgb")
 

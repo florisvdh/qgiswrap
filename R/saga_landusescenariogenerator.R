@@ -22,7 +22,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_landusescenariogenerator <- function(FIELDS = qgisprocess::qgis_default_value(), FIELD_ID = qgisprocess::qgis_default_value(), SCENARIO = qgisprocess::qgis_default_value(), OUTPUT = qgisprocess::qgis_default_value(), STATISTICS = qgisprocess::qgis_default_value(), KNOWN_CROPS = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_landusescenariogenerator <- function(FIELDS = qgisprocess:::qgis_default_value(), FIELD_ID = qgisprocess:::qgis_default_value(), SCENARIO = qgisprocess:::qgis_default_value(), OUTPUT = qgisprocess:::qgis_default_value(), STATISTICS = qgisprocess:::qgis_default_value(), KNOWN_CROPS = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:landusescenariogenerator")
 

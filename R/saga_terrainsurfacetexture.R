@@ -25,7 +25,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_terrainsurfacetexture <- function(DEM = qgisprocess::qgis_default_value(), TEXTURE = qgisprocess::qgis_default_value(), EPSILON = qgisprocess::qgis_default_value(), SCALE = qgisprocess::qgis_default_value(), METHOD = qgisprocess::qgis_default_value(), DW_WEIGHTING = qgisprocess::qgis_default_value(), DW_IDW_POWER = qgisprocess::qgis_default_value(), DW_IDW_OFFSET = qgisprocess::qgis_default_value(), DW_BANDWIDTH = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_terrainsurfacetexture <- function(DEM = qgisprocess:::qgis_default_value(), TEXTURE = qgisprocess:::qgis_default_value(), EPSILON = qgisprocess:::qgis_default_value(), SCALE = qgisprocess:::qgis_default_value(), METHOD = qgisprocess:::qgis_default_value(), DW_WEIGHTING = qgisprocess:::qgis_default_value(), DW_IDW_POWER = qgisprocess:::qgis_default_value(), DW_IDW_OFFSET = qgisprocess:::qgis_default_value(), DW_BANDWIDTH = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:terrainsurfacetexture")
 

@@ -27,7 +27,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-qgis_reclassifybylayer <- function(INPUT_RASTER = qgisprocess::qgis_default_value(), RASTER_BAND = qgisprocess::qgis_default_value(), INPUT_TABLE = qgisprocess::qgis_default_value(), MIN_FIELD = qgisprocess::qgis_default_value(), MAX_FIELD = qgisprocess::qgis_default_value(), VALUE_FIELD = qgisprocess::qgis_default_value(), NO_DATA = qgisprocess::qgis_default_value(), RANGE_BOUNDARIES = qgisprocess::qgis_default_value(), NODATA_FOR_MISSING = qgisprocess::qgis_default_value(), DATA_TYPE = qgisprocess::qgis_default_value(), OUTPUT = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+qgis_reclassifybylayer <- function(INPUT_RASTER = qgisprocess:::qgis_default_value(), RASTER_BAND = qgisprocess:::qgis_default_value(), INPUT_TABLE = qgisprocess:::qgis_default_value(), MIN_FIELD = qgisprocess:::qgis_default_value(), MAX_FIELD = qgisprocess:::qgis_default_value(), VALUE_FIELD = qgisprocess:::qgis_default_value(), NO_DATA = qgisprocess:::qgis_default_value(), RANGE_BOUNDARIES = qgisprocess:::qgis_default_value(), NODATA_FOR_MISSING = qgisprocess:::qgis_default_value(), DATA_TYPE = qgisprocess:::qgis_default_value(), OUTPUT = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("native:reclassifybylayer")
 

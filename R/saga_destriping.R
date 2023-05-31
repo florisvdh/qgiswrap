@@ -25,7 +25,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_destriping <- function(INPUT = qgisprocess::qgis_default_value(), RESULT3 = qgisprocess::qgis_default_value(), RESULT1 = qgisprocess::qgis_default_value(), RESULT2 = qgisprocess::qgis_default_value(), ANG = qgisprocess::qgis_default_value(), R = qgisprocess::qgis_default_value(), D = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_destriping <- function(INPUT = qgisprocess:::qgis_default_value(), RESULT3 = qgisprocess:::qgis_default_value(), RESULT1 = qgisprocess:::qgis_default_value(), RESULT2 = qgisprocess:::qgis_default_value(), ANG = qgisprocess:::qgis_default_value(), R = qgisprocess:::qgis_default_value(), D = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:destriping")
 

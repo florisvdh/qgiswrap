@@ -26,7 +26,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-qgis_stdbscanclustering <- function(INPUT = qgisprocess::qgis_default_value(), DATETIME_FIELD = qgisprocess::qgis_default_value(), MIN_SIZE = qgisprocess::qgis_default_value(), EPS = qgisprocess::qgis_default_value(), EPS2 = qgisprocess::qgis_default_value(), DBSCAN = qgisprocess::qgis_default_value(), FIELD_NAME = qgisprocess::qgis_default_value(), SIZE_FIELD_NAME = qgisprocess::qgis_default_value(), OUTPUT = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+qgis_stdbscanclustering <- function(INPUT = qgisprocess:::qgis_default_value(), DATETIME_FIELD = qgisprocess:::qgis_default_value(), MIN_SIZE = qgisprocess:::qgis_default_value(), EPS = qgisprocess:::qgis_default_value(), EPS2 = qgisprocess:::qgis_default_value(), DBSCAN = qgisprocess:::qgis_default_value(), FIELD_NAME = qgisprocess:::qgis_default_value(), SIZE_FIELD_NAME = qgisprocess:::qgis_default_value(), OUTPUT = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("native:stdbscanclustering")
 

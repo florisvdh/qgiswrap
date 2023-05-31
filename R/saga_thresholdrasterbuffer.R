@@ -22,7 +22,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_thresholdrasterbuffer <- function(FEATURES = qgisprocess::qgis_default_value(), VALUE = qgisprocess::qgis_default_value(), THRESHOLDGRID = qgisprocess::qgis_default_value(), THRESHOLD = qgisprocess::qgis_default_value(), THRESHOLDTYPE = qgisprocess::qgis_default_value(), BUFFER = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_thresholdrasterbuffer <- function(FEATURES = qgisprocess:::qgis_default_value(), VALUE = qgisprocess:::qgis_default_value(), THRESHOLDGRID = qgisprocess:::qgis_default_value(), THRESHOLD = qgisprocess:::qgis_default_value(), THRESHOLDTYPE = qgisprocess:::qgis_default_value(), BUFFER = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:thresholdrasterbuffer")
 

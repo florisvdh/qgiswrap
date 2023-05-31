@@ -27,7 +27,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_accumulatedcost <- function(DEST_TYPE = qgisprocess::qgis_default_value(), DEST_POINTS = qgisprocess::qgis_default_value(), DEST_GRID = qgisprocess::qgis_default_value(), COST = qgisprocess::qgis_default_value(), DIR_MAXCOST = qgisprocess::qgis_default_value(), DIR_UNIT = qgisprocess::qgis_default_value(), DIR_K = qgisprocess::qgis_default_value(), ACCUMULATED = qgisprocess::qgis_default_value(), ALLOCATION = qgisprocess::qgis_default_value(), THRESHOLD = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_accumulatedcost <- function(DEST_TYPE = qgisprocess:::qgis_default_value(), DEST_POINTS = qgisprocess:::qgis_default_value(), DEST_GRID = qgisprocess:::qgis_default_value(), COST = qgisprocess:::qgis_default_value(), DIR_MAXCOST = qgisprocess:::qgis_default_value(), DIR_UNIT = qgisprocess:::qgis_default_value(), DIR_K = qgisprocess:::qgis_default_value(), ACCUMULATED = qgisprocess:::qgis_default_value(), ALLOCATION = qgisprocess:::qgis_default_value(), THRESHOLD = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:accumulatedcost")
 

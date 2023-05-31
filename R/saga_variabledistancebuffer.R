@@ -22,7 +22,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_variabledistancebuffer <- function(SHAPES = qgisprocess::qgis_default_value(), DIST_FIELD = qgisprocess::qgis_default_value(), DIST_SCALE = qgisprocess::qgis_default_value(), NZONES = qgisprocess::qgis_default_value(), DARC = qgisprocess::qgis_default_value(), BUFFER = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_variabledistancebuffer <- function(SHAPES = qgisprocess:::qgis_default_value(), DIST_FIELD = qgisprocess:::qgis_default_value(), DIST_SCALE = qgisprocess:::qgis_default_value(), NZONES = qgisprocess:::qgis_default_value(), DARC = qgisprocess:::qgis_default_value(), BUFFER = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:variabledistancebuffer")
 

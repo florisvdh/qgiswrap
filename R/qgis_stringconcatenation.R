@@ -18,7 +18,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-qgis_stringconcatenation <- function(INPUT_1 = qgisprocess::qgis_default_value(), INPUT_2 = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+qgis_stringconcatenation <- function(INPUT_1 = qgisprocess:::qgis_default_value(), INPUT_2 = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("native:stringconcatenation")
 

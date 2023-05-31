@@ -21,7 +21,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-qgis_transect <- function(INPUT = qgisprocess::qgis_default_value(), LENGTH = qgisprocess::qgis_default_value(), ANGLE = qgisprocess::qgis_default_value(), SIDE = qgisprocess::qgis_default_value(), OUTPUT = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+qgis_transect <- function(INPUT = qgisprocess:::qgis_default_value(), LENGTH = qgisprocess:::qgis_default_value(), ANGLE = qgisprocess:::qgis_default_value(), SIDE = qgisprocess:::qgis_default_value(), OUTPUT = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("native:transect")
 

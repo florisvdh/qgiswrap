@@ -21,7 +21,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-qgis_importphotos <- function(FOLDER = qgisprocess::qgis_default_value(), RECURSIVE = qgisprocess::qgis_default_value(), OUTPUT = qgisprocess::qgis_default_value(), INVALID = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+qgis_importphotos <- function(FOLDER = qgisprocess:::qgis_default_value(), RECURSIVE = qgisprocess:::qgis_default_value(), OUTPUT = qgisprocess:::qgis_default_value(), INVALID = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("native:importphotos")
 

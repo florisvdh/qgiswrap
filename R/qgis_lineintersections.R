@@ -22,7 +22,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-qgis_lineintersections <- function(INPUT = qgisprocess::qgis_default_value(), INTERSECT = qgisprocess::qgis_default_value(), INPUT_FIELDS = qgisprocess::qgis_default_value(), INTERSECT_FIELDS = qgisprocess::qgis_default_value(), INTERSECT_FIELDS_PREFIX = qgisprocess::qgis_default_value(), OUTPUT = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+qgis_lineintersections <- function(INPUT = qgisprocess:::qgis_default_value(), INTERSECT = qgisprocess:::qgis_default_value(), INPUT_FIELDS = qgisprocess:::qgis_default_value(), INTERSECT_FIELDS = qgisprocess:::qgis_default_value(), INTERSECT_FIELDS_PREFIX = qgisprocess:::qgis_default_value(), OUTPUT = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("native:lineintersections")
 

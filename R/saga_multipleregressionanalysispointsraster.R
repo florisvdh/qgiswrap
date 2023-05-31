@@ -32,7 +32,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_multipleregressionanalysispointsraster <- function(GRIDS = qgisprocess::qgis_default_value(), SHAPES = qgisprocess::qgis_default_value(), ATTRIBUTE = qgisprocess::qgis_default_value(), INTERPOL = qgisprocess::qgis_default_value(), METHOD = qgisprocess::qgis_default_value(), P_IN = qgisprocess::qgis_default_value(), P_OUT = qgisprocess::qgis_default_value(), INFO_COEFF = qgisprocess::qgis_default_value(), INFO_MODEL = qgisprocess::qgis_default_value(), INFO_STEPS = qgisprocess::qgis_default_value(), RESIDUALS = qgisprocess::qgis_default_value(), REGRESSION = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_multipleregressionanalysispointsraster <- function(GRIDS = qgisprocess:::qgis_default_value(), SHAPES = qgisprocess:::qgis_default_value(), ATTRIBUTE = qgisprocess:::qgis_default_value(), INTERPOL = qgisprocess:::qgis_default_value(), METHOD = qgisprocess:::qgis_default_value(), P_IN = qgisprocess:::qgis_default_value(), P_OUT = qgisprocess:::qgis_default_value(), INFO_COEFF = qgisprocess:::qgis_default_value(), INFO_MODEL = qgisprocess:::qgis_default_value(), INFO_STEPS = qgisprocess:::qgis_default_value(), RESIDUALS = qgisprocess:::qgis_default_value(), REGRESSION = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:multipleregressionanalysispointsraster")
 

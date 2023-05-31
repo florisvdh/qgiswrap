@@ -24,7 +24,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_rasterproximitybuffer <- function(SOURCE = qgisprocess::qgis_default_value(), DIST = qgisprocess::qgis_default_value(), IVAL = qgisprocess::qgis_default_value(), DISTANCE = qgisprocess::qgis_default_value(), ALLOC = qgisprocess::qgis_default_value(), BUFFER = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_rasterproximitybuffer <- function(SOURCE = qgisprocess:::qgis_default_value(), DIST = qgisprocess:::qgis_default_value(), IVAL = qgisprocess:::qgis_default_value(), DISTANCE = qgisprocess:::qgis_default_value(), ALLOC = qgisprocess:::qgis_default_value(), BUFFER = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:rasterproximitybuffer")
 

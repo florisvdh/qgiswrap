@@ -27,7 +27,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_decisiontreeclassificationopencv <- function(FEATURES = qgisprocess::qgis_default_value(), NORMALIZE = qgisprocess::qgis_default_value(), TRAIN_AREAS = qgisprocess::qgis_default_value(), TRAIN_CLASS = qgisprocess::qgis_default_value(), CLASSES = qgisprocess::qgis_default_value(), MAX_DEPTH = qgisprocess::qgis_default_value(), MIN_SAMPLES = qgisprocess::qgis_default_value(), MAX_CATEGRS = qgisprocess::qgis_default_value(), arg_1SE_RULE = qgisprocess::qgis_default_value(), TRUNC_PRUNED = qgisprocess::qgis_default_value(), REG_ACCURACY = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_decisiontreeclassificationopencv <- function(FEATURES = qgisprocess:::qgis_default_value(), NORMALIZE = qgisprocess:::qgis_default_value(), TRAIN_AREAS = qgisprocess:::qgis_default_value(), TRAIN_CLASS = qgisprocess:::qgis_default_value(), CLASSES = qgisprocess:::qgis_default_value(), MAX_DEPTH = qgisprocess:::qgis_default_value(), MIN_SAMPLES = qgisprocess:::qgis_default_value(), MAX_CATEGRS = qgisprocess:::qgis_default_value(), arg_1SE_RULE = qgisprocess:::qgis_default_value(), TRUNC_PRUNED = qgisprocess:::qgis_default_value(), REG_ACCURACY = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:decisiontreeclassificationopencv")
 

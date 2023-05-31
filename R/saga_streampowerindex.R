@@ -20,7 +20,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_streampowerindex <- function(SLOPE = qgisprocess::qgis_default_value(), AREA = qgisprocess::qgis_default_value(), CONV = qgisprocess::qgis_default_value(), SPI = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_streampowerindex <- function(SLOPE = qgisprocess:::qgis_default_value(), AREA = qgisprocess:::qgis_default_value(), CONV = qgisprocess:::qgis_default_value(), SPI = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:streampowerindex")
 

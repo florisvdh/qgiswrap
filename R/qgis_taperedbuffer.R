@@ -21,7 +21,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-qgis_taperedbuffer <- function(INPUT = qgisprocess::qgis_default_value(), START_WIDTH = qgisprocess::qgis_default_value(), END_WIDTH = qgisprocess::qgis_default_value(), SEGMENTS = qgisprocess::qgis_default_value(), OUTPUT = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+qgis_taperedbuffer <- function(INPUT = qgisprocess:::qgis_default_value(), START_WIDTH = qgisprocess:::qgis_default_value(), END_WIDTH = qgisprocess:::qgis_default_value(), SEGMENTS = qgisprocess:::qgis_default_value(), OUTPUT = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("native:taperedbuffer")
 

@@ -30,7 +30,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-qgis_tilesxyzdirectory <- function(EXTENT = qgisprocess::qgis_default_value(), ZOOM_MIN = qgisprocess::qgis_default_value(), ZOOM_MAX = qgisprocess::qgis_default_value(), DPI = qgisprocess::qgis_default_value(), BACKGROUND_COLOR = qgisprocess::qgis_default_value(), TILE_FORMAT = qgisprocess::qgis_default_value(), QUALITY = qgisprocess::qgis_default_value(), METATILESIZE = qgisprocess::qgis_default_value(), TILE_WIDTH = qgisprocess::qgis_default_value(), TILE_HEIGHT = qgisprocess::qgis_default_value(), TMS_CONVENTION = qgisprocess::qgis_default_value(), OUTPUT_DIRECTORY = qgisprocess::qgis_default_value(), OUTPUT_HTML = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+qgis_tilesxyzdirectory <- function(EXTENT = qgisprocess:::qgis_default_value(), ZOOM_MIN = qgisprocess:::qgis_default_value(), ZOOM_MAX = qgisprocess:::qgis_default_value(), DPI = qgisprocess:::qgis_default_value(), BACKGROUND_COLOR = qgisprocess:::qgis_default_value(), TILE_FORMAT = qgisprocess:::qgis_default_value(), QUALITY = qgisprocess:::qgis_default_value(), METATILESIZE = qgisprocess:::qgis_default_value(), TILE_WIDTH = qgisprocess:::qgis_default_value(), TILE_HEIGHT = qgisprocess:::qgis_default_value(), TMS_CONVENTION = qgisprocess:::qgis_default_value(), OUTPUT_DIRECTORY = qgisprocess:::qgis_default_value(), OUTPUT_HTML = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("qgis:tilesxyzdirectory")
 

@@ -23,7 +23,7 @@
 ##' @md
 ##' @importFrom qgisprocess qgis_run_algorithm qgis_default_value
 
-saga_pointdistances <- function(POINTS = qgisprocess::qgis_default_value(), ID_POINTS = qgisprocess::qgis_default_value(), NEAR = qgisprocess::qgis_default_value(), ID_NEAR = qgisprocess::qgis_default_value(), FORMAT = qgisprocess::qgis_default_value(), MAX_DIST = qgisprocess::qgis_default_value(), DISTANCES = qgisprocess::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
+saga_pointdistances <- function(POINTS = qgisprocess:::qgis_default_value(), ID_POINTS = qgisprocess:::qgis_default_value(), NEAR = qgisprocess:::qgis_default_value(), ID_NEAR = qgisprocess:::qgis_default_value(), FORMAT = qgisprocess:::qgis_default_value(), MAX_DIST = qgisprocess:::qgis_default_value(), DISTANCES = qgisprocess:::qgis_default_value(),..., .complete_output = .complete_output_option(), .quiet = .quiet_option(), .messages = .message_option()) {
 
   check_algorithm_necessities("saga:pointdistances")
 
